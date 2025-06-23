@@ -1,0 +1,77 @@
+.cmp-carousel {}
+.cmp-carousel__content {}
+.cmp-carousel__item {}
+.cmp-carousel__actions {}
+.cmp-carousel__action {}
+.cmp-carousel__action--disabled {}
+.cmp-carousel__action--previous {}
+.cmp-carousel__action--next {}
+.cmp-carousel__action--pause {}
+.cmp-carousel__action--play {}
+.cmp-carousel__action-icon {}
+.cmp-carousel__action-text {}
+.cmp-carousel__indicators {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+
+}
+.cmp-carousel__indicator {
+
+    position: relative;
+    flex: 0 1 auto;
+    width: 17px;
+    height: 17px;
+    margin: 0 7px;
+    border-radius: 50%;
+    font-size: 0;
+    text-indent: -3000px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cmp-carousel__actions {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  pointer-events: none; /* allow clicks only on the buttons */
+  z-index: 10;
+}
+
+.cmp-carousel__action {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(19, 19, 19, 0.25);
+  border: none;
+  padding: 0;
+  color: white; /* Set arrow color */
+  font-size: 20px; /* Adjust as needed */
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+  pointer-events: auto;
+  text-align: center;
+}
+
+.cmp-carousel__action:hover {
+  background-color: rgba(19, 19, 19, 0.4);
+}
+
+.cmp-carousel__action-icon {
+  width: 12px;
+  height: 12px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+}
+

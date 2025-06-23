@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/grundfos",
+        "create path (nt:unstructured) /content/dam/grundfos/jcr:content",
+        "set properties on /content/dam/grundfos/jcr:content\n  set cq:conf{String} to /conf/grundfos\n  set jcr:title{String} to \"Grundfos Sites Project\"\nend"
+    ]
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/grundfos" mode="merge"/>
+    <filter root="/content/grundfos" mode="merge"/>
+    <filter root="/content/dam/grundfos/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/grundfos" mode="merge"/>
+</workspaceFilter>
